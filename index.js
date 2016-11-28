@@ -13,16 +13,16 @@ function square(n) {
   console.log(n*n)
 }
 
-const doToEvens = callback => {
+function doToEvens(callback) {
   evens.forEach(callback)
 }
 
-const doToElementsInArray = (array, callback) => {
+function doToElementsInArray(array, callback) {
   array.forEach(callback)
 }
 
-const changeCompletely = (element, index, array) => {
-  array[index] = (Math.random() *100).toString() + '!!!'
+function changeCompletely(element, index, array) {
+  array[index] = (Math.random() * 100).toString() + '!!!'
 }
 
 var animals = ['dog', 'fish', 'cat']
